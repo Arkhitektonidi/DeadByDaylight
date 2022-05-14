@@ -1,0 +1,433 @@
+*{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+@font-face{
+	font-family: Segoe WP Black;
+    src: url("font\SegoeWPBlack.ttf");
+}
+@font-face{
+	font-family: Segoe WP Light;
+    src: url("font\SegoeWPLight.ttf");
+}
+@font-face{
+	font-family: Open Sans Light;
+    src: url("font\OpenSansLight.ttf");
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Segoe WP Black;
+}
+h2{
+    font-family: Segoe WP Black;
+}
+a, article{
+	font-family: Segoe WP Light;
+}
+img.background {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.shapka img{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.right-block{
+    position: relative;
+    width: 747px;
+    height: 3000px;
+    background-color: #1f2630;
+    margin-right: 6px;
+    border: 1px solid #000000;
+}
+.right-block h1{
+    font-size: 40px;
+    color: #929292;
+    border-bottom: 2px solid #000000;
+    width: 500px;
+    margin-top: 10px;
+}
+.chapter{
+    width: 100%;
+}
+.chapter video{
+    width: 700px;
+    height: 350px;
+    margin-top: 10px;
+}
+.chapter img{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+    top: 255px;
+    left: 250px;
+}
+.chapter h1{
+    border: none;
+}
+.survivors{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 10px;
+    position: relative;
+}
+.survivors img{
+    width: 207px;
+    height: 498px;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+}
+.survivors-description{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    left: 250px;
+}
+.survivors-description h1{
+    width: 400px;
+}
+.survivors-description a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.survivors-description article{
+    text-align: justify;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    margin-left: 20px;
+}
+.survivors-description img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.survivors-description h2{
+    font-size: 35px;
+}
+.survivors-description h3 a{
+    font-size: 10px;
+    color: #8383ac;
+}
+.survivors-skill{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 25px;
+}
+.survivors-skill img{
+    border: none;
+}
+.survivors-skill a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #5e5e9c;
+}
+.survivors-skill div{
+    padding-left: 50px;
+}
+.survivors-skill_1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.survivors-skill_1 img{
+    top: 40px;
+    left: 45px;
+}
+.survivors-skill_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+}
+.survivors-skill_2 img{
+    top: 40px;
+    left: 45px;
+}
+.survivors-skill_3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+}
+.survivors-skill_3 img{
+    top: 35px;
+    left: 35px;
+}
+.killers{
+    width: 100%;
+    height: 1400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.killers img{
+    width: 222px;
+    height: 490px;
+    position: absolute;
+    left: 500px;
+    top: 1px;
+}
+.killers-description{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    left: 70px;
+}
+.killers-description a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 100px;
+}
+.killers-description article{
+    text-align: justify;
+    width: 400px;
+    padding: 10px 0 10px 0;
+}
+.killers-description h3 a{
+    font-size: 10px;
+    color: #8383ac;
+}
+.killers-description img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+.killers-skill{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 25px;
+}
+.killers-skill img{
+    border: none;
+}
+.killers-skill a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #5e5e9c;
+}
+.killers-skill div{
+    padding-left: 50px;
+}
+.killers-skill_1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5px;
+}
+.killers-skill_1 img{
+    top: 65px;
+    left: 40px;
+}
+.killers-skill_2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+    top: 10px;
+}
+.killers-skill_2 img{
+    top: 60px;
+    left: 25px;
+}
+.killers-skill_3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 180px;
+    top: 10px;
+}
+.killers-skill_3 img{
+    top: 60px;
+    left: 40px;
+}
+.killers-power{
+    position: absolute;
+    top: 600px;
+}
+.killers-power img{
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 130px;
+}
+.killers-power_text{
+    position: absolute;
+    left: 150px;
+}
+.killers-power_text h1{
+    font-size: 40px;
+    color: #cacaca;
+}
+.killers-power_text article{
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.nav{
+    width: 247px;
+    height: 3000px;
+    background-color: #313c47;
+    border: 1px solid #000000;
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 5px 5px 10px 5px;
+}
+.logo h1{
+    font-size: 25px;
+}
+.logo article{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 5px;
+}
+.menu{
+    font-size: 20px;
+    margin-top: 35px;
+    border: 1px solid #000000;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px 0 10px;
+    padding-right: 50px;
+}
+#menu-chapters{
+    border: 1px solid #000000;
+    margin-top: 35px;
+}
+#menu-chapters h1{
+    font-size: 25px;
+}
+#menu-chapters ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 10px 5px;
+}
+#menu-chapters a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+}
+#contacts{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#contacts h1{
+    font-size: 20px;
+}
+#contacts article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+#help{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#help h1{
+    font-size: 20px;
+}
+#help article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+.dbd{
+    margin-top: 75px;
+    font-size: 40px;
+    opacity: 10%;
+}
+.dbd-dead{
+    position: relative;
+    right: 50px;
+}
+.dbd-by{
+    margin-top: 100px;
+}
+.dbd-daylight{
+    margin-top: 100px;
+    position: relative;
+    left: 50px;
+}
+.footer{
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+    height: 200px;
+    background-color: #0a141c;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+.footer img{
+    width: 230px;
+    height: 196px;
+}
+.kursach{
+    margin-top: 10px;
+    width: 400px;
+}
+.kursach h1{
+    font-size: 40px;
+}
+.kursach article{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}

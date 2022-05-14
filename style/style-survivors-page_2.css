@@ -1,0 +1,825 @@
+*{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+@font-face{
+	font-family: Segoe WP Black;
+    src: url("font\SegoeWPBlack.ttf");
+}
+@font-face{
+	font-family: Segoe WP Light;
+    src: url("font\SegoeWPLight.ttf");
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Segoe WP Black;
+}
+h2{
+    font-family: Segoe WP Black;
+}
+a, article{
+	font-family: Segoe WP Light;
+}
+q{
+	font-family: Segoe WP Light;
+}
+img.background {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.shapka img{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.right-block{
+    position: relative;
+    width: 747px;
+    height: 7000px;
+    background-color: #1f2630;
+    margin-right: 6px;
+    border: 1px solid #000000;
+}
+.survivors h1{
+    margin: 10px;
+    font-size: 40px;
+    border-top: 2.5px solid #000000;
+    border-bottom: 2.5px solid #000000;
+    text-align: left;
+    padding-left: 50px;
+    color: #929292;
+}
+.david-king h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.david-king_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.david-king_description img{
+    width: 135px;
+    height: 190px;
+}
+.david-king_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.david-king_description-text article,li{
+    text-align: justify;
+}
+.david-king_description-text li{
+    color: #bdbdbd;
+}
+.david-king_main{
+    display: flex;
+    flex-direction: row;
+    margin: -30px 20px;
+    height: 650px;
+}
+.david-king_main img{
+    width: 200px;
+    height: 500px;
+}
+.david-king_main-text{
+    width: 400px;
+}
+.david-king_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.david-king_skills{
+    display: flex;
+    flex-direction: column;
+}
+.david-king_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.david-king_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.david-king_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.david-king_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.david-king_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.david-king_skills-1 h1{
+    position: relative;
+    right: 60px;
+}
+.david-king_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.david-king_skills-2 h1{
+    position: relative;
+    right: 50px;
+}
+.david-king_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: relative;
+    right: 30px;
+}
+.david-king_skills-3 h1{
+    position: relative;
+    right: 50px;
+}
+.jeff-johansen{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.jeff-johansen h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.jeff-johansen_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.jeff-johansen_description img{
+    width: 135px;
+    height: 190px;
+}
+.jeff-johansen_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.jeff-johansen_description-text article,li{
+    text-align: justify;
+}
+.jeff-johansen_description-text li{
+    color: #bdbdbd;
+}
+.jeff-johansen_main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    height: 650px;
+}
+.jeff-johansen_main-text{
+    width: 450px;
+    margin-top: 130px;
+}
+.jeff-johansen_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.jeff-johansen_skills{
+    display: flex;
+    flex-direction: column;
+}
+.jeff-johansen_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.jeff-johansen_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.jeff-johansen_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.jeff-johansen_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.jeff-johansen_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jeff-johansen_skills-1 h1{
+    position: relative;
+    right: 65px;
+}
+.jeff-johansen_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jeff-johansen_skills-2 h1{
+    position: relative;
+    right: 60px;
+}
+.jeff-johansen_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jeff-johansen_skills-3 h1{
+    position: relative;
+    right: 65px;
+}
+.jane-romero{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.jane-romero h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.jane-romero_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.jane-romero_description img{
+    width: 135px;
+    height: 190px;
+}
+.jane-romero_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.jane-romero_description-text article,li{
+    text-align: justify;
+}
+.jane-romero_description-text li{
+    color: #bdbdbd;
+}
+.jane-romero_main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    height: 650px;
+}
+.jane-romero_main-text{
+    width: 450px;
+}
+.jane-romero_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.jane-romero_skills{
+    display: flex;
+    flex-direction: column;
+}
+.jane-romero_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.jane-romero_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.jane-romero_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.jane-romero_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.jane-romero_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jane-romero_skills-1 h1{
+    position: relative;
+    right: 85px;
+}
+.jane-romero_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jane-romero_skills-2 h1{
+    position: relative;
+    right: 70px;
+}
+.jane-romero_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.jane-romero_skills-3 h1{
+    position: relative;
+    right: 65px;
+}
+.yui-kimura{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.yui-kimura h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.yui-kimura_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.yui-kimura_description img{
+    width: 135px;
+    height: 190px;
+}
+.yui-kimura_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.yui-kimura_description-text article,li{
+    text-align: justify;
+}
+.yui-kimura_description-text li{
+    color: #bdbdbd;
+}
+.yui-kimura_main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    height: 650px;
+}
+.yui-kimura_main-text{
+    width: 450px;
+}
+.yui-kimura_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.yui-kimura_skills{
+    display: flex;
+    flex-direction: column;
+}
+.yui-kimura_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.yui-kimura_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.yui-kimura_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.yui-kimura_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.yui-kimura_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.yui-kimura_skills-1 h1{
+    position: relative;
+    right: 70px;
+}
+.yui-kimura_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.yui-kimura_skills-2 h1{
+    position: relative;
+    right: 50px;
+}
+.yui-kimura_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.yui-kimura_skills-3 h1{
+    position: relative;
+    right: 50px;
+}
+.felix-richter{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.felix-richter h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.felix-richter_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.felix-richter_description img{
+    width: 135px;
+    height: 190px;
+}
+.felix-richter_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.felix-richter_description-text article,li{
+    text-align: justify;
+}
+.felix-richter_description-text li{
+    color: #bdbdbd;
+}
+.felix-richter_main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    height: 650px;
+}
+.felix-richter_main-text{
+    width: 450px;
+}
+.felix-richter_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.felix-richter_skills{
+    display: flex;
+    flex-direction: column;
+}
+.felix-richter_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.felix-richter_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.felix-richter_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.felix-richter_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.felix-richter_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.felix-richter_skills-1 h1{
+    position: relative;
+    right: 50px;
+}
+.felix-richter_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.felix-richter_skills-2 h1{
+    position: relative;
+    right: 70px;
+}
+.felix-richter_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.felix-richter_skills-3 h1{
+    position: relative;
+    right: 60px;
+}
+.elodie-rakoto h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.elodie-rakoto_description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.elodie-rakoto_description img{
+    width: 135px;
+    height: 190px;
+}
+.elodie-rakoto_description-text{
+    margin-left: 20px;
+    width: 600px;
+}
+.elodie-rakoto_description-text article,li{
+    text-align: justify;
+}
+.elodie-rakoto_description-text li{
+    color: #bdbdbd;
+}
+.elodie-rakoto_main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    height: 650px;
+}
+.elodie-rakoto_main-text{
+    width: 450px;
+}
+.elodie-rakoto_main-text article{
+    margin-top: -50px;
+    font-size: 15px;
+    text-align: justify;
+}
+.elodie-rakoto_skills{
+    display: flex;
+    flex-direction: column;
+}
+.elodie-rakoto_skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+    text-align: center;
+}
+.elodie-rakoto_skills-0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.elodie-rakoto_skills-0 img{
+    width: 120px;
+    height: 120px;
+}
+.elodie-rakoto_skills-0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.elodie-rakoto_skills-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.elodie-rakoto_skills-1 h1{
+    position: relative;
+    right: 50px;
+}
+.elodie-rakoto_skills-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.elodie-rakoto_skills-2 h1{
+    position: relative;
+    right: 50px;
+}
+.elodie-rakoto_skills-3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.elodie-rakoto_skills-3 h1{
+    position: relative;
+    right: 50px;
+}
+.survivors-pages{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.survivors-pages a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #999999;
+    border: 1px solid #000000;
+}
+.survivors-pages a:hover{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+.nav{
+    width: 247px;
+    height: 7000px;
+    background-color: #313c47;
+    border: 1px solid #000000;
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 5px 5px 10px 5px;
+}
+.logo h1{
+    font-size: 25px;
+}
+.logo article{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 5px;
+}
+.menu{
+    font-size: 20px;
+    margin-top: 35px;
+    border: 1px solid #000000;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px 0 10px;
+    padding-right: 50px;
+}
+#menu-chapters{
+    border: 1px solid #000000;
+    margin-top: 35px;
+}
+#menu-chapters h1{
+    font-size: 25px;
+}
+#menu-chapters ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 10px 5px;
+}
+#menu-chapters a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+}
+#contacts{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#contacts h1{
+    font-size: 20px;
+}
+#contacts article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+#help{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#help h1{
+    font-size: 20px;
+}
+#help article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+.dbd{
+    margin-top: 75px;
+    font-size: 40px;
+    opacity: 10%;
+}
+.dbd-dead{
+    position: relative;
+    right: 50px;
+}
+.dbd-by{
+    margin-top: 100px;
+}
+.dbd-daylight{
+    margin-top: 100px;
+    position: relative;
+    left: 50px;
+}
+.footer{
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+    height: 200px;
+    background-color: #0a141c;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+.footer img{
+    width: 230px;
+    height: 196px;
+}
+.kursach{
+    margin-top: 10px;
+    width: 400px;
+}
+.kursach h1{
+    font-size: 40px;
+}
+.kursach article{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}

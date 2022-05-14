@@ -1,0 +1,849 @@
+*{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+@font-face{
+	font-family: Segoe WP Black;
+    src: url("font\SegoeWPBlack.ttf");
+}
+@font-face{
+	font-family: Segoe WP Light;
+    src: url("font\SegoeWPLight.ttf");
+}
+@font-face{
+	font-family: Open Sans Light;
+    src: url("font\OpenSansLight.ttf");
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Segoe WP Black;
+}
+h2{
+    font-family: Segoe WP Black;
+}
+a, article{
+	font-family: Segoe WP Light;
+}
+img.background {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.shapka img{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.right-block{
+    position: relative;
+    width: 747px;
+    height: 7800px;
+    background-color: #1f2630;
+    margin-right: 6px;
+    border: 1px solid #000000;
+}
+.killers h1{
+    margin: 10px;
+    font-size: 40px;
+    border-top: 2.5px solid #000000;
+    border-bottom: 2.5px solid #000000;
+    text-align: left;
+    padding-left: 50px;
+    color: #929292;
+}
+.the_spirit{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.the_spirit h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_spirit-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_spirit-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_spirit-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_spirit-description_text article,li{
+    text-align: justify;
+}
+.the_spirit-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_spirit-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_spirit-main_text{
+    width: 400px;
+}
+.the_spirit-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_spirit-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.the_spirit-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_spirit-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_spirit-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_spirit-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_spirit-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_spirit-skills_1 h1{
+    position: relative;
+    right: 70px;
+}
+.the_spirit-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_spirit-skills_2 h1{
+    position: relative;
+    right: 60px;
+}
+.the_spirit-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_spirit-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_legion{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1150px;
+}
+.the_legion h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_legion-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_legion-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_legion-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_legion-description_text article,li{
+    text-align: justify;
+}
+.the_legion-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_legion-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_legion-main_text{
+    width: 400px;
+}
+.the_legion-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_legion-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.the_legion-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_legion-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_legion-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_legion-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_legion-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_legion-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_legion-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_legion-skills_2 h1{
+    position: relative;
+    right: 50px;
+}
+.the_legion-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_legion-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_plague{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1500px;
+}
+.the_plague h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_plague-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_plague-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_plague-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_plague-description_text article,li{
+    text-align: justify;
+}
+.the_plague-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_plague-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_plague-main_text{
+    width: 400px;
+}
+.the_plague-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_plague-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.the_plague-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_plague-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_plague-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_plague-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_plague-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_plague-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_plague-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_plague-skills_2 h1{
+    position: relative;
+    right: 70px;
+}
+.the_plague-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_plague-skills_3 h1{
+    position: relative;
+    right: 70px;
+}
+.oni{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1200px;
+}
+.oni h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.oni-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.oni-description img{
+    width: 135px;
+    height: 190px;
+}
+.oni-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.oni-description_text article,li{
+    text-align: justify;
+}
+.oni-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.oni-main img{
+    width: 200px;
+    height: 500px;
+}
+.oni-main_text{
+    width: 400px;
+}
+.oni-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.oni-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+.oni-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.oni-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.oni-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.oni-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.oni-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.oni-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.oni-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.oni-skills_2 h1{
+    position: relative;
+    right: 60px;
+}
+.oni-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.oni-skills_3 h1{
+    position: relative;
+    right: 60px;
+}
+.the_blight{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1300px;
+}
+.the_blight h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_blight-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_blight-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_blight-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_blight-description_text article,li{
+    text-align: justify;
+}
+.the_blight-description_text ul{
+    margin-top: 20px;
+}
+.the_blight-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_blight-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_blight-main_text{
+    width: 400px;
+}
+.the_blight-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_blight-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.the_blight-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_blight-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_blight-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_blight-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_blight-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_blight-skills_1 h1{
+    position: relative;
+    right: 70px;
+}
+.the_blight-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_blight-skills_2 h1{
+    position: relative;
+    right: 50px;
+}
+.the_blight-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_blight-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_twins{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.the_twins h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_twins-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_twins-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_twins-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_twins-description_text article,li{
+    text-align: justify;
+}
+.the_twins-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_twins-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_twins-main_text{
+    width: 400px;
+}
+.the_twins-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_twins-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.the_twins-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_twins-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_twins-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_twins-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_twins-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_twins-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_twins-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_twins-skills_2 h1{
+    position: relative;
+    right: 80px;
+}
+.the_twins-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_twins-skills_3 h1{
+    position: relative;
+    right: 100px;
+}
+.killers-page{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 75px;
+}
+.killers-page a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #999999;
+    border: 1px solid #000000;
+}
+.killers-page a:hover{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+.nav{
+    width: 247px;
+    height: 7800px;
+    background-color: #313c47;
+    border: 1px solid #000000;
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 5px 5px 10px 5px;
+}
+.logo h1{
+    font-size: 25px;
+}
+.logo article{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 5px;
+}
+.menu{
+    font-size: 20px;
+    margin-top: 35px;
+    border: 1px solid #000000;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px 0 10px;
+    padding-right: 50px;
+}
+#menu-chapters{
+    border: 1px solid #000000;
+    margin-top: 35px;
+}
+#menu-chapters h1{
+    font-size: 25px;
+}
+#menu-chapters ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 10px 5px;
+}
+#menu-chapters a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+}
+#contacts{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#contacts h1{
+    font-size: 20px;
+}
+#contacts article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+#help{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#help h1{
+    font-size: 20px;
+}
+#help article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+.dbd{
+    margin-top: 75px;
+    font-size: 40px;
+    opacity: 10%;
+}
+.dbd-dead{
+    position: relative;
+    right: 50px;
+}
+.dbd-by{
+    margin-top: 100px;
+}
+.dbd-daylight{
+    margin-top: 100px;
+    position: relative;
+    left: 50px;
+}
+.footer{
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+    height: 200px;
+    background-color: #0a141c;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+.footer img{
+    width: 230px;
+    height: 196px;
+}
+.kursach{
+    margin-top: 10px;
+    width: 400px;
+}
+.kursach h1{
+    font-size: 40px;
+}
+.kursach article{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}

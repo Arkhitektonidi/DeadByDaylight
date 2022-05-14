@@ -1,0 +1,847 @@
+*{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+@font-face{
+	font-family: Segoe WP Black;
+    src: url("font\SegoeWPBlack.ttf");
+}
+@font-face{
+	font-family: Segoe WP Light;
+    src: url("font\SegoeWPLight.ttf");
+}
+@font-face{
+	font-family: Open Sans Light;
+    src: url("font\OpenSansLight.ttf");
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Segoe WP Black;
+}
+h2{
+    font-family: Segoe WP Black;
+}
+a, article{
+	font-family: Segoe WP Light;
+}
+img.background {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.container{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.shapka img{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.right-block{
+    position: relative;
+    width: 747px;
+    height: 7600px;
+    background-color: #1f2630;
+    margin-right: 6px;
+    border: 1px solid #000000;
+}
+.killers h1{
+    margin: 10px;
+    font-size: 40px;
+    border-top: 2.5px solid #000000;
+    border-bottom: 2.5px solid #000000;
+    text-align: left;
+    padding-left: 50px;
+    color: #929292;
+}
+.the_trapper{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.the_trapper h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_trapper-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_trapper-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_trapper-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_trapper-description_text article,li{
+    text-align: justify;
+}
+.the_trapper-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_trapper-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_trapper-main_text{
+    width: 400px;
+}
+.the_trapper-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_trapper-skills{
+    display: flex;
+    flex-direction: column;
+}
+.the_trapper-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_trapper-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_trapper-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_trapper-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_trapper-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_trapper-skills_1 h1{
+    position: relative;
+    right: 85px;
+}
+.the_trapper-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_trapper-skills_2 h1{
+    position: relative;
+    right: 60px;
+}
+.the_trapper-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_trapper-skills_3 h1{
+    position: relative;
+    right: 70px;
+}
+.the_wraith{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1150px;
+}
+.the_wraith h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_wraith-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_wraith-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_wraith-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_wraith-description_text article,li{
+    text-align: justify;
+}
+.the_wraith-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_wraith-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_wraith-main_text{
+    width: 400px;
+}
+.the_wraith-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_wraith-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.the_wraith-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_wraith-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_wraith-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_wraith-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_wraith-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_wraith-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_wraith-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_wraith-skills_2 h1{
+    position: relative;
+    right: 50px;
+}
+.the_wraith-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_wraith-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_hillbilly{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1100px;
+}
+.the_hillbilly h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_hillbilly-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_hillbilly-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_hillbilly-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_hillbilly-description_text article,li{
+    text-align: justify;
+}
+.the_hillbilly-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_hillbilly-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_hillbilly-main_text{
+    width: 400px;
+}
+.the_hillbilly-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_hillbilly-skills{
+    display: flex;
+    flex-direction: column;
+}
+.the_hillbilly-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_hillbilly-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_hillbilly-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_hillbilly-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_hillbilly-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hillbilly-skills_1 h1{
+    position: relative;
+    right: 50px;
+}
+.the_hillbilly-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hillbilly-skills_2 h1{
+    position: relative;
+    right: 50px;
+}
+.the_hillbilly-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hillbilly-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_nurse{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1300px;
+}
+.the_nurse h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_nurse-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_nurse-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_nurse-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_nurse-description_text article,li{
+    text-align: justify;
+}
+.the_nurse-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_nurse-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_nurse-main_text{
+    width: 400px;
+}
+.the_nurse-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_nurse-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 230px;
+}
+.the_nurse-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_nurse-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_nurse-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_nurse-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_nurse-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_nurse-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_nurse-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_nurse-skills_2 h1{
+    position: relative;
+    right: 80px;
+}
+.the_nurse-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_nurse-skills_3 h1{
+    position: relative;
+    right: 60px;
+}
+.the_hag{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1300px;
+}
+.the_hag h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_hag-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_hag-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_hag-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_hag-description_text article,li{
+    text-align: justify;
+}
+.the_hag-description_text ul{
+    margin-top: 20px;
+}
+.the_hag-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_hag-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_hag-main_text{
+    width: 400px;
+}
+.the_hag-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_hag-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.the_hag-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_hag-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_hag-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_hag-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_hag-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hag-skills_1 h1{
+    position: relative;
+    right: 70px;
+}
+.the_hag-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hag-skills_2 h1{
+    position: relative;
+    right: 50px;
+}
+.the_hag-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_hag-skills_3 h1{
+    position: relative;
+    right: 50px;
+}
+.the_huntress{
+    display: flex;
+    flex-direction: column ;
+    margin: 10px 0 20px 10px;
+    width: 100%;
+    height: 1300px;
+}
+.the_huntress h1{
+    font-size: 30px;
+    border: none;   
+    padding-left: 100px;
+    color: #ffffff;
+}
+.the_huntress-description{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 600px;
+    margin-left: 50px;
+}
+.the_huntress-description img{
+    width: 135px;
+    height: 190px;
+}
+.the_huntress-description_text{
+    margin-left: 20px;
+    width: 450px;
+}
+.the_huntress-description_text article,li{
+    text-align: justify;
+}
+.the_huntress-main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 20px;
+    height: 500px;
+}
+.the_huntress-main img{
+    width: 200px;
+    height: 500px;
+}
+.the_huntress-main_text{
+    width: 400px;
+}
+.the_huntress-main_text article{
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 15px;
+    text-align: justify;
+}
+.the_huntress-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 230px;
+}
+.the_huntress-skills h1{
+    font-size: 40px;
+    color: #bdbdbd;
+}
+.the_huntress-skills_0{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 20px;
+}
+.the_huntress-skills_0 img{
+    width: 120px;
+    height: 120px;
+}
+.the_huntress-skills_0 h1{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.the_huntress-skills_1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_huntress-skills_1 h1{
+    position: relative;
+    right: 60px;
+}
+.the_huntress-skills_2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_huntress-skills_2 h1{
+    position: relative;
+    right: 80px;
+}
+.the_huntress-skills_3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+.the_huntress-skills_3 h1{
+    position: relative;
+    right: 100px;
+}
+.killers-page{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 75px;
+}
+.killers-page a{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #999999;
+    border: 1px solid #000000;
+}
+.killers-page a:hover{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+.nav{
+    width: 247px;
+    height: 7600px;
+    background-color: #313c47;
+    border: 1px solid #000000;
+}
+.nav img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 5px 5px 10px 5px;
+}
+.logo h1{
+    font-size: 25px;
+}
+.logo article{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 5px;
+}
+.menu{
+    font-size: 20px;
+    margin-top: 35px;
+    border: 1px solid #000000;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    margin: 10px 0 10px;
+    padding-right: 50px;
+}
+#menu-chapters{
+    border: 1px solid #000000;
+    margin-top: 35px;
+}
+#menu-chapters h1{
+    font-size: 25px;
+}
+#menu-chapters ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 10px 5px;
+}
+#menu-chapters a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 1px solid #000000;
+    width: 100px;
+}
+#contacts{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#contacts h1{
+    font-size: 20px;
+}
+#contacts article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+#help{
+    margin-top: 35px;   
+    padding: 5px 5px 10px 5px;
+    border: 1px solid #000000;
+}
+#help h1{
+    font-size: 20px;
+}
+#help article{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+    color: #aaaaaa;
+}
+.dbd{
+    margin-top: 75px;
+    font-size: 40px;
+    opacity: 10%;
+}
+.dbd-dead{
+    position: relative;
+    right: 50px;
+}
+.dbd-by{
+    margin-top: 100px;
+}
+.dbd-daylight{
+    margin-top: 100px;
+    position: relative;
+    left: 50px;
+}
+.footer{
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+    height: 200px;
+    background-color: #0a141c;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+.footer img{
+    width: 230px;
+    height: 196px;
+}
+.kursach{
+    margin-top: 10px;
+    width: 400px;
+}
+.kursach h1{
+    font-size: 40px;
+}
+.kursach article{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}
